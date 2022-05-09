@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 
 app.get('/', (request, response) => {
-  return response.json({ message: 'Success galera!!' });
+  return response.json({ message: 'Success galera 2!!' });
 });
 
 const PORT = process.env.PORT || 5000;
