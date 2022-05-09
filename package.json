@@ -5,8 +5,11 @@
   "repository": "https://github.com/JailsonSantos/api-node-vercel-test.git",
   "author": "JailsonSantos <jailson.ads007@gmail.com>",
   "license": "MIT",
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "express": "^4.18.1",
